@@ -101,6 +101,11 @@
         margin-top:  -170px;
     }
 
+    .image-content{
+        color: white; 
+        margin-top: -40%;
+    }
+
   }
 
 
@@ -123,7 +128,11 @@
         padding-top: 25%;
         width: 50%;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
+
     .navbar-collapse{
        margin-left: -50px;
        width: 100% !important;
@@ -146,27 +155,14 @@
     }
  
     .image-content{
-        position: absolute;
-        top: 20%;
-        color: white; 
+        margin-top: -60%;
     }
 
     .image-content p{
         font-size: 100%;
         width: 400px;
     }
-
-    .left-image-content{
-        left: 20%;
-        right: 20%;
-        
-    }
-    .right-image-content{
-        left: 30%;
-        right: 30%;
-    }
-
-    }
+}
 
 
 @media only screen and (min-width: 1500px) {
