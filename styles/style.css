@@ -26,6 +26,10 @@
     background-color: transparent; 
     border: none;  
 }
+.logo-row{
+    margin-bottom: 0px;
+}
+
 
 .nav a:hover{
     color: #8cc63f !important;
@@ -79,6 +83,12 @@
     font-weight: bold;
 }
 
+.left-image-content{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateY(-50%); 
+}
 
 @media only screen and (min-width: 200px) {
       .image-container{
