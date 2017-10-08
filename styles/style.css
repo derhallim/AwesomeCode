@@ -35,8 +35,6 @@
     background:#edecec;
 }
 
-
-
 .left-image{
     background-image: url('http://www.careworx.com/wp-content/uploads/it-service-home-image-v3.jpg');
 }
@@ -52,11 +50,9 @@
     border: 1px white solid;
 }
 
-
 .sub-nav li{
- list-style-type: none;
+    list-style-type: none;
 }
-
 
 .sub-nav .col-md-3, .sub-nav .col-md-3 ul{
     padding: 0px;
@@ -76,19 +72,35 @@
 
 .sub-nav li ul li{
     padding-left: 10px;
-   }
+}
    
-   .sub-nav h6{
+.sub-nav h6{
     margin-left: 10px;
     font-weight: bold;
-   }
-   
+}
+
 
 @media only screen and (min-width: 200px) {
       .image-container{
           padding-top: 50%;
           width: 100%;
       }
+
+
+      .sub-nav {
+        width: 400px !important;
+        border-top: #8cc63f solid 2px;
+        height: 560px;
+     }
+     
+     .sub-nav div.col-md-3{
+        border-left: 1px solid white; 
+     }
+
+    .col-it-partners{
+        margin-top:  -170px;
+    }
+
   }
 
 @media only screen and (min-width: 990px) {
@@ -100,7 +112,23 @@
        margin-left: -50px;
        width: 100% !important;
     }
-}
+
+
+    .sub-nav {
+        width: 800px !important;
+        margin-left: -200px;
+        border-top: #8cc63f solid 2px;
+        height: 450px;
+     }
+     
+     .sub-nav div.col-md-3{
+        border-left: 1px solid white; 
+     }
+    
+     .col-it-partners{
+        margin-top:  auto;
+    }
+    }
 
 @media only screen and (min-width: 780px) and (max-width: 830px) {
     .navigation{
@@ -112,23 +140,21 @@
     .navigation{
      width: 83%;
  }
-}
+
+} 
 
 @media only screen and (min-width: 1500px) {
     .navbar-collapse{
-     width: 650px;
- }
-
- .sub-nav {
-    width: 1000px;
-    margin-left: -400px;
-    border-top: #8cc63f solid 2px;
-    height: 450px;
-}
-
-.sub-nav div.col-md-3{
-    border-left: 1px solid white; 
-   
-}
-
+        width: 650px;
+    }
+    .sub-nav {
+        width: 1000px;
+        margin-left: -400px;
+        border-top: #8cc63f solid 2px;
+        height: 450px;
+    }
+    
+    .sub-nav div.col-md-3{
+        border-left: 1px solid white; 
+    }
 }
