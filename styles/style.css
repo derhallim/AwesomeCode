@@ -54,6 +54,10 @@
     border: 1px white solid;
 }
 
+.navbar-collapse{
+    width: 650px;
+    margin-left: -50px;
+}
 
 @media only screen and (min-width: 200px) {
       .image-container{
