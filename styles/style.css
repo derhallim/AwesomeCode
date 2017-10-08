@@ -35,9 +35,7 @@
     background:#edecec;
 }
 
-.dropdown-menu div.col-md-3{
-    border-left: 1px solid black; 
-}
+
 
 .left-image{
     background-image: url('http://www.careworx.com/wp-content/uploads/it-service-home-image-v3.jpg');
@@ -54,6 +52,37 @@
     border: 1px white solid;
 }
 
+
+.sub-nav li{
+ list-style-type: none;
+}
+
+
+.sub-nav .col-md-3, .sub-nav .col-md-3 ul{
+    padding: 0px;
+}
+
+.sub-nav a{
+    width: 100%;
+    display: block;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-nav a:hover{
+    background-color: #fcfcfc;
+}
+
+.sub-nav li ul li{
+    padding-left: 10px;
+   }
+   
+   .sub-nav h6{
+    margin-left: 10px;
+    font-weight: bold;
+   }
+   
 
 @media only screen and (min-width: 200px) {
       .image-container{
@@ -89,4 +118,17 @@
     .navbar-collapse{
      width: 650px;
  }
+
+ .sub-nav {
+    width: 1000px;
+    margin-left: -400px;
+    border-top: #8cc63f solid 2px;
+    height: 450px;
+}
+
+.sub-nav div.col-md-3{
+    border-left: 1px solid white; 
+   
+}
+
 }
