@@ -1,15 +1,17 @@
 *{
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 .top-bar{
     background-color: #8cc63f;
     padding: 11px 10px;
 }
-jjtretiertj kjrwjrlkwtjw
+
 .support, .support a{
-    color: white; 
-    font-size: 16px; 
-    text-decoration: none; 
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .img-logo{
@@ -37,7 +39,6 @@ jjtretiertj kjrwjrlkwtjw
     border-left: 1px solid black; 
 }
 
-
 .left-image{
     background-image: url('http://www.careworx.com/wp-content/uploads/it-service-home-image-v3.jpg');
 }
@@ -48,44 +49,29 @@ jjtretiertj kjrwjrlkwtjw
 }
 
 .image-container{
-  
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    min-height: 180px;
-}
- 
-@media only screen and (min-width: 300px) {
-    /* my code */
-        .image-container{
-            min-height: 170px;
-        }
-     
-    }
- 
-@media only screen and (min-width: 450px) {
-
-    .image-container{
-        min-height: 230px;
-    }
- 
+    background-size: contain;
+    border: 1px white solid;
 }
 
-@media only screen and (min-width: 700px) {
-    
-        .image-container{
-            min-height: 430px;
-        }
-     
-    }
 
-@media only screen and (min-width: 1000px) {
-    .img-logo {
-        width: 335px;
-    }
+@media only screen and (min-width: 200px) {
+      .image-container{
+          padding-top: 50%;
+          width: 100%;
+      }
+  }
 
+@media only screen and (min-width: 990px) {
     .image-container{
-        border: 1px white solid;
-        min-height: 520px;
+        padding-top: 25%;
+        width: 50%;
     }
- 
+}
+
+
+@media only screen and (min-width: 1500px) {
+ .navbar-collapse{
+     width: 650px;
+ }
 }

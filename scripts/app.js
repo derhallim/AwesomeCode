@@ -5,3 +5,8 @@ $(document).ready(function() {
         $(this).removeClass('open');
     });
 });
+
+
+window.onresize = function(){
+    console.log(document.documentElement.clientWidth)
+}
