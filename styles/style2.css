@@ -13,12 +13,6 @@
     clear: both;
 }
 
-.services-container{
-    width: 1000px; 
-    margin: 0 auto;
-}
-
-
 .service{
     background-color: white; 
     border-radius: 5px;
@@ -32,7 +26,14 @@
     cursor: pointer;
     margin-top: 5px;
     margin-bottom: 10px;
+    border-radius: 5px;
     
+}
+.more-info:hover{
+    background-color: #d15445;
+}
+.more-info:hover:after{
+    content: "..Click me!";
 }
 
 @media (min-width: 200px){
@@ -53,5 +54,10 @@
         width: 30%;
         float: left;
         padding: 50px;
+    }
+
+    .services-container{
+        width: 1000px; 
+        margin: 0 auto;
     }
 }
