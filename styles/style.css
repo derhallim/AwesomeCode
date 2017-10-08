@@ -41,34 +41,52 @@
 
 .left-image{
     background-image: url('http://www.careworx.com/wp-content/uploads/it-service-home-image-v3.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% auto;
-    overflow:hidden;
-    height:100%;
 }
 
 .right-image{
     border-left: none; 
-}
-
-.image-container img{
-    width: 100%;
+    background-image: url('http://www.careworx.com/wp-content/uploads/Senior-Care-landing.jpg');
 }
 
 .image-container{
-    padding: 1px;
+  
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 180px;
+}
+ 
+@media only screen and (min-width: 300px) {
+    
+        .image-container{
+            min-height: 170px;
+        }
+     
+    }
+
+@media only screen and (min-width: 450px) {
+
+    .image-container{
+        min-height: 230px;
+    }
+ 
 }
 
-
-
+@media only screen and (min-width: 700px) {
+    
+        .image-container{
+            min-height: 430px;
+        }
+     
+    }
 
 @media only screen and (min-width: 1000px) {
     .img-logo {
         width: 335px;
     }
 
-    .right-image{
-        border-left: 3px white solid; 
+    .image-container{
+        border: 1px white solid;
+        min-height: 520px;
     }
+ 
 }
