@@ -83,6 +83,17 @@
     font-weight: bold;
 }
 
+.services .service-column{
+    background-color: white;
+    margin-right: 100px;
+}
+
+.services, .services .service-column{
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+
 
 @media only screen and (min-width: 200px) {
       .image-container{
@@ -111,6 +122,10 @@
 
     .image-content p{
         font-size: 18px;
+    }
+
+    .services .service-column{
+        margin: auto;
     }
 }  
 
@@ -161,6 +176,10 @@
 
     .image-content {
         margin-top: -60%;
+    }
+    .services .service-column{
+        margin: inherit;
+        margin-left: 100px;
     }
 }
 
