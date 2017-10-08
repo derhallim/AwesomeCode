@@ -1,144 +1,74 @@
 *{
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    padding: 0; margin: 0; border: 0; box-sizing: border-box;
 }
 
-.top-bar{
-    background-color: #8cc63f;
-    padding: 11px 10px;
+.services{
+    background-color: #8e8e7c; 
+    padding: 15px;
 }
 
-.support, .support a{
+.services:after{
+    content: " "; 
+    display: block; 
+    clear:both;
+}
+
+.service-list{
+    width: 1000px; 
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    padding-left: 80px;
+}
+
+.service{
+    background-color: white; 
+    padding: 15px;
+    float: left;
+    border-radius: 5px;
+}
+
+.more-info{
+    padding: 10px;
+    background-color:  #6bbf5d;
     color: white;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.img-logo{
-    width: 240px;
-}
-
-.row{
-    margin-bottom: 30px; 
-  }
-
-  .navbar-default {
-    background-color: transparent; 
-    border: none;  
-}
-
-.nav a:hover{
-    color: #8cc63f !important;
-}
-
-.dropdown-menu{
-    background:#edecec;
-}
-
-.left-image{
-    background-image: url('http://www.careworx.com/wp-content/uploads/it-service-home-image-v3.jpg');
-}
-
-.right-image{
-    border-left: none; 
-    background-image: url('http://www.careworx.com/wp-content/uploads/Senior-Care-landing.jpg');
-}
-
-.image-container{
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px white solid;
-}
-
-.sub-nav li{
-    list-style-type: none;
-}
-
-.sub-nav .col-md-3, .sub-nav .col-md-3 ul{
-    padding: 0px;
-}
-
-.sub-nav a{
-    width: 100%;
-    display: block;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.sub-nav a:hover{
-    background-color: #fcfcfc;
-}
-
-.sub-nav li ul li{
-    padding-left: 10px;
-}
-   
-.sub-nav h6{
-    margin-left: 10px;
+    float: right;
     font-weight: bold;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
 }
 
-/* 
-@media only screen and (min-width: 200px) {
-      .image-container{
-          padding-top: 50%;
-          width: 100%;
-      }
-  }
-
-@media only screen and (min-width: 990px) {
-    .image-container{
-        padding-top: 25%;
-        width: 50%;
-    }
-    .navbar-collapse{
-       margin-left: -50px;
-       width: 100% !important;
-    }
+.more-info:hover{
+    background-color: #f45642;
 }
 
-@media only screen and (min-width: 780px) and (max-width: 830px) {
-    .navigation{
-     width: 100%;
- }
-}
-
-@media only screen and (min-width: 830px) and (max-width: 1150px) {
-    .navigation{
-     width: 83%;
- }
-
-} */
-
-
-@media only screen and (min-width: 1100px) {
-    .sub-nav {
-        width: 1000px !important;
-        margin-left: -200px;
-        border-top: #8cc63f solid 2px;
-        height: 450px;
-     }
-     
-     .sub-nav div.col-md-3{
-        border-left: 1px solid white; 
-     }
+.more-info:hover:after{
+    content: " Check it now!"
 }
 
 
-@media only screen and (min-width: 1500px) {
-    .navbar-collapse{
-        width: 650px;
+@media  (min-width: 200px){
+    .service-list{
+        width: 100%;
     }
 
-    .sub-nav {
-        width: 1000px;
-        margin-left: -400px;
-        border-top: #8cc63f solid 2px;
-        height: 450px;
+    .service{
+        width: 80%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media  (min-width: 900px){
+    .service{
+        background-color: white; 
+        padding: 15px;
+        width: 30%;
+        margin-left: 10px;
     }
     
-    .sub-nav div.col-md-3{
-        border-left: 1px solid white; 
-    }
 }
