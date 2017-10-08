@@ -73,6 +73,18 @@
     }
 }
 
+@media only screen and (min-width: 780px) and (max-width: 830px) {
+    .navigation{
+     width: 100%;
+ }
+}
+
+@media only screen and (min-width: 830px) and (max-width: 1150px) {
+    .navigation{
+     width: 83%;
+ }
+}
+
 @media only screen and (min-width: 1500px) {
     .navbar-collapse{
      width: 650px;
