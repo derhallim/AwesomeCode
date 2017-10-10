@@ -3,18 +3,66 @@
 }
 
 .header{
-    width: 100%;    
+    width: 100%;       
+}
+
+.header-text{
     margin: 10px auto;
-
-}
-.service-container{   
-    
-    margin: 100px;   
-    background-color: red; 
-    
+    width:400px;
 }
 
-.col-md-3{
+.service{
     background-color: blue;
+    padding: 15px;
+
+}
+.col-container{     
+       
+    background-color: red; 
+   
+    margin: 0 auto;    
 }
 
+.all-col{
+    background-color: green;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.col1{
+    
+}
+.more-info{
+    float:right;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+
+
+@media (min-width:200px) {
+    
+    .all-col{
+        width:100%;
+            }
+    .col-container{
+        width:100%;
+    }
+}
+
+
+@media (min-width:900px) {
+    
+    .all-col{
+        margin: 15px;
+        float: left;
+        width: 30%;
+            }
+
+    .col-container{
+        width:1200px;
+    }
+}
