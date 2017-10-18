@@ -1,0 +1,119 @@
+.topnav{
+    width:100%;
+    height:100px;
+    background-color: #f1f1f1;
+    position: relative;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+.home {
+    position: absolute;
+    float:left; 
+    
+    margin-left: 50px;
+    margin-top: 10px;
+   
+   
+
+}
+
+.home a{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+   }
+
+.tabs{ 
+    
+    
+   1position: absolute;
+    float:right;
+    margin-right: 30px;
+    margin-top: 30px;
+   
+}
+
+.nav, .icon{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    float: left;
+
+}
+
+.icon{
+   
+        display: none;
+        1visibility: hidden;
+      }
+
+.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+@media screen and (max-width: 700px) {
+    .topnav{
+        background-color: red;
+    }
+    .topnav .tabs a{
+        display: none;
+    }
+
+    .topnav .tabs a:last-child{
+        display: block;
+    }
+    .icon{
+        
+             display: block;
+             1visibility:visible;
+           }
+    
+    }
+
+    @media screen and (max-width: 500px) {
+        .topnav .tabs a{
+            float: none;
+            display: none;
+            clear: both;
+        }
+    
+        
+         .tabs, .home{
+           clear:both;
+           
+           
+        }
+
+        .tabs{
+            position: absolute;
+            margin-left: 30px;
+            padding-left: 30px;
+            margin-top:100px;
+           
+        }
+        .icon{
+            
+                 display: block;
+                 1visibility:visible;
+                 float: right;
+               }
+        .image-Logo{
+            1height: 30px !important;
+            width: 300px !important;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        
+        .image-Logo{
+            1height: 30px !important;
+            width: 200px !important;
+        }
+    }
